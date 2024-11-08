@@ -17,10 +17,10 @@ func _process(delta):
 	
 	if Input.is_action_pressed("move_right"):
 		velocity.x += speed
-		$AnimatedSprite.flip_h = false # Face right
+		$AnimatedSprite.flip_h = true # Face right
 	elif Input.is_action_pressed("move_left"):
 		velocity.x -= speed
-		$AnimatedSprite.flip_h = true # Face left
+		$AnimatedSprite.flip_h = false # Face left
 
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = jump_velocity
