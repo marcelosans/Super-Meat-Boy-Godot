@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/meatboyend.png-2aabe5bc0f7599804e123d04677d912f.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://Assets/Super Meat Boy/resources/Textures/editoricons.png"
+source_file="res://Super Meat Boy/pc/Animations/meatboyend.png"
+dest_files=[ "res://.import/meatboyend.png-2aabe5bc0f7599804e123d04677d912f.stex" ]
+
 [params]
 
 compress/mode=0
