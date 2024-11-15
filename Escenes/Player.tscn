@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://Super Meat Boy/pc/Animations/tofuboy.png" type="Texture" id=1]
+[ext_resource path="res://Super Meat Boy/pc/Animations/tofuboy.png" type="Texture2D" id=1]
 [ext_resource path="res://Player.gd" type="Script" id=2]
 
 [sub_resource type="AtlasTexture" id=2]
@@ -39,14 +39,14 @@ animations = [ {
 [sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 16.5, 16.5 )
 
-[node name="Player" type="KinematicBody2D"]
+[node name="Player" type="CharacterBody2D"]
 position = Vector2( 226, 167 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2( -1, 0 )
 scale = Vector2( 0.466667, 0.478022 )
 frames = SubResource( 1 )
